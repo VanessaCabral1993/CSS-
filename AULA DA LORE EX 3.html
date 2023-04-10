@@ -1,29 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Receita de Bolo de Cenoura</title>
-	<link rel="stylesheet" type="text/css" href="estilos.css">
-</head>
-<body>
-	<h1>Bolo de Cenoura</h1>
-	<p><strong>Ingredientes:</strong></p>
-	<ul>
-		<li><span class="obrigatorio">3 cenouras médias raladas</span></li>
-		<li>3 ovos</li>
-		<li><span class="obrigatorio">1 xícara de óleo</span></li>
-		<li><span class="opcional">2 xícaras de açúcar</span></li>
-		<li><span class="opcional">2 xícaras de farinha de trigo</span></li>
-		<li><span class="opcional">1 colher de sopa de fermento em pó</span></li>
-	</ul>
-	<p><strong>Modo de Preparo:</strong></p>
-	<ol>
-		<li>Preaqueça o forno a 180ºC.</li>
-		<li>Bata no liquidificador as cenouras, os ovos e o óleo até ficar homogêneo.</li>
-		<li>Em uma tigela, misture o açúcar, a farinha de trigo e o fermento em pó.</li>
-		<li>Adicione a mistura do liquidificador aos ingredientes secos e misture bem.</li>
-		<li>Despeje a massa em uma forma untada e enfarinhada.</li>
-		<li>Leve ao forno por cerca de 40 minutos ou até que esteja assado.</li>
-	</ol>
-	<p><strong>Tempo de Preparo:</strong> <em>1 hora</em></p>
-</body>
+  <head>
+    <title>Receita de bolo</title>
+    <style>
+      /* Definindo os estilos da página */
+      body {
+        text-align: center;
+        background-color: #f2f2f2;
+      }
+
+      /* Definindo os estilos do título */
+      h1 {
+        font-family: Arial, sans-serif;
+        font-size: 36px;
+        color: #ff6600;
+        margin-top: 30px;
+      }
+
+      /* Definindo os estilos dos ingredientes */
+      .obrigatorio {
+        color: green;
+        text-decoration: none;
+      }
+
+      .gosto {
+        color: blue;
+        text-decoration: none;
+      }
+
+      .obrigatorio s {
+        color: red;
+        text-decoration: line-through;
+      }
+
+      /* Definindo os estilos do tempo de preparo */
+      .tempo {
+        font-style: italic;
+      }
+
+      /* Definindo os estilos da seção de instruções */
+      .instrucoes {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Receita de bolo</h1>
+    <p>Ingredientes:</p>
+    <ul>
+      <li class="obrigatorio">3 ovos</li>
+      <li>1 xícara de açúcar</li>
+      <li>1/2 xícara de óleo</li>
+      <li class="obrigatorio"><s>2 xícaras de farinha de trigo</s></li>
+      <li class="gosto">1 colher de sopa de fermento em pó</li>
+      <li class="obrigatorio">1 xícara de leite</li>
+    </ul>
+    <p class="tempo">Tempo de preparo: 45 minutos</p>
+    <div class="instrucoes">
+      <p>Modo de preparo:</p>
+      <ol>
+        <li>Bata os ovos com o açúcar até obter um creme claro e fofo.</li>
+        <li>Adicione o óleo e continue batendo.</li>
+        <li>Peneire a farinha e o fermento juntos e adicione à mistura, alternando com o leite.</li>
+        <li>Misture delicadamente até ficar homogêneo.</li>
+        <li>Despeje em uma forma untada e enfarinhada.</li>
+        <li>Leve ao forno pré-aquecido a 180°C por cerca de 30 minutos.</li>
+      </ol>
+    </div>
+  </body>
 </html>
